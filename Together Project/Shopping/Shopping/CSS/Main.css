@@ -1,0 +1,73 @@
+        body {
+            background-color: #6C4E31;
+        }
+        
+        .item-img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .button-d {
+            margin-top: 10px;
+            width: 70%;
+            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        
+        .All-container {
+            width: 1520px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .All-container .container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.16);
+            border-radius: 20px;
+            opacity: 1px;
+        }
+        
+        button {
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: #2f2d2d;
+            color: white;
+            font-family: "New Amsterdam", sans-serif;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        
+        button:hover {
+            background-color: #5d5959;
+            font-size: x-large;
+            cursor: pointer;
+        }
+        
+        .item-img:hover {
+            cursor: pointer;
+        }
+        
+        .price {
+            font-size: 15px;
+            align-self: center;
+            color: #401f01;
+        }
+        
+        span {
+            color: white;
+        }
+        
+        #fi {
+            margin-top: 60px;
+        }
+        
+        #first {
+            margin-top: 60px;
+        }
